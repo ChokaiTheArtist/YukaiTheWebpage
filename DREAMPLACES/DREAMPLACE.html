@@ -3,6 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>PLACES</title>
+	<script language="JavaScript">
+		function writeText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+		function dissolveText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+	
+	</script>
     <style type="text/css">
     
     </style>
@@ -21,17 +30,24 @@
 		<li><a href="../PHOTOS/CALUGTONG_PHOTO_GALLERY.html">PHOTO GALLERY</a></li>
 		<li><a href="../MUSIC/CALUGTONG_MYMUSIC.html">MY BEATS</a></li>
 		<li><a href="../VIDEO/CALUGTONG_MYFILM.html">MY KIND OF FILMS</a></li>
+		<li><a href="../DREAMPLACES/DREAMPLACE.html">DREAM PLACES TO VISIT</a></li>
 	</ul>
 	
-	<img src="Dream_places.png" usemap="#image-map">
-
+	<hr id="head" width="100%" size="5" color="#CCCCCC">
+	<br><br><br><br><br>
+	<img class="places" src="Dream_places.png" usemap="#image-map">
+	
 	<map name="image-map">
-	    <area target="" alt="" title="" href="" coords="410,510,688,515,818,747,685,983,411,986,278,746" shape="poly">
-	    <area target="" alt="" title="" href="" coords="842,752,1124,749,1289,1010,1131,1255,838,1252,695,996" shape="poly">
-	    <area target="" alt="" title="" href="" coords="304,1305,441,1066,713,1069,849,1300,714,1544,442,1540" shape="poly">
-	    <area target="" alt="" title="" href="" coords="869,1305,1174,1304,1326,1565,1177,1824,873,1829,721,1566" shape="poly">
-	    <area target="" alt="" title="" href="" coords="434,1599,718,1600,866,1850,728,2089,435,2096,292,1848" shape="poly">
+		<area target="" title="Paris, France" href="PLACES.html#paris" coords="244,305,409,308,493,450,410,592,245,592,163,451" shape="poly" onMouseOver="writeText('Paris, France');" onMouseOut="dissolveText('');">
+		<area target="" title="Golden Gai, Shinjuku, Japan" href="PLACES.html#japan" coords="504,449,678,448,771,607,680,756,503,755,417,602" shape="poly" onMouseOver="writeText('Shinjuku, Japan');" onMouseOut="dissolveText('');">
+		<area target="" title="Iceland" href="PLACES.html#iceland" coords="263,642,428,641,510,786,428,927,263,930,178,783" shape="poly" onMouseOver="writeText('Iceland');" onMouseOut="dissolveText('');">
+		<area target="" title="Berlin, Germany" href="PLACES.html#germany" coords="524,785,708,786,798,943,708,1103,523,1102,432,944" shape="poly" onMouseOver="writeText('Berlin, Germany');" onMouseOut="dissolveText('');">
+		<area target="" title="Australia" href="PLACES.html#australia" coords="261,962,431,964,519,1115,436,1263,260,1267,171,1116" shape="poly" onMouseOver="writeText('Australia');" onMouseOut="dissolveText('');">
 	</map>
+	
+	<p id="desc"></p>
+	<br><br><br><br><br>
+	<hr width="100%" size="5" color="#CCCCCC">
 	
 </body>
 </html>
