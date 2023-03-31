@@ -4,8 +4,10 @@ body {
 	font-family:Verdana, sans-serif;
 	font-size:1.15em;
 	text-align: center;
-	
-}
+	margin: 0;
+	padding: 0;
+}	
+
 
 p {
 	margin-left: 100px;

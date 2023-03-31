@@ -4,6 +4,8 @@ body {
 	font-family:Verdana, sans-serif;
 	font-size:1.15em;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 ul {
@@ -91,3 +93,17 @@ h3 {
 	color: #CCCCCC;
 }
 		
+		
+hr {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+h3#head {
+	margin-top: 10px;
+}
+
+.header-img {
+	margin-top: 100px;
+}
+

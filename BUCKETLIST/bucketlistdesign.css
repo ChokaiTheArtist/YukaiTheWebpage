@@ -4,10 +4,12 @@ body {
 	font-family:Verdana, sans-serif;
 	font-size:1.15em;
 	text-align: center;
-	
+	margin: 0;
+	padding: 0;
+
 }
 
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,11 +19,11 @@ ul {
   top: 0;
 }
 
-li {
+.nav li {
   float: left;
 }
 
-li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -29,10 +31,85 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.nav li a:hover {
   background-color: #111;
 }
 
 .active {
   background-color: #4CAF50;
+}
+
+p.title {
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+}
+
+hr {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.bucket {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+}
+
+.bucket li {
+			margin-left: 350px;
+			margin-right: 350px;
+			margin-bottom: 10px;
+			background-color: #383838;
+			padding: 10px;
+			border-radius: 5px;
+}
+
+.bucket li img {
+	float: left;
+}
+
+h3#header {
+	margin-top: 200px;
+	padding-bottom: 30px; 
+}
+
+.container 
+{
+	display: flex;
+	justify-content: center;
+}	
+
+.card 
+{
+	background-color: #383838;
+	width: 270px;
+	height: 400px;
+	margin: 3px;
+}
+
+.card-img img
+{
+	background-color: #CCCCCC;
+	border-radius: 15px;
+	margin-top: 20px;
+	width: 70px;
+	height: auto;
+}
+
+.card p {
+	margin: 15px;
+	text-align:left;
+	font-family: 'Courier New', monospace;
+}
+
+.card h4 {
+	margin: 25px;
+	font-family: 'Courier New', monospace;
+}
+
+.link {
+	padding-top: 200px;
+	color: #CCCCCC;
 }
